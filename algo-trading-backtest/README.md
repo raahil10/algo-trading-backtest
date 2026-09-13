@@ -22,7 +22,7 @@ This project:
    (i.e. every time a real trade would happen)
 6. Compares the result against simply buying and holding the stock
 
-## The metrics, in plain terms
+## The metrics
 
 | Metric | What it tells you |
 |---|---|
