@@ -80,6 +80,18 @@ doesn't require an internet connection):
 ```bash
 python -m pytest tests/
 ```
+## Sample output
+
+Running `examples/run_summary.py` on 2019–2024 daily data:
+
+| ticker | total_return | annualized_return | annualized_volatility | sharpe_ratio | max_drawdown | win_rate |
+|---|---|---|---|---|---|---|
+| AAPL | 186.76% | 31.12% | 27.42% | 0.97 | -31.43% | 53.39% |
+| MSFT | 197.75% | 31.86% | 24.79% | 1.10 | -28.04% | 55.03% |
+| SPY | 45.40% | 19.70% | 16.15% | 0.93 | -33.72% | 56.04% |
+
+Note the drawdowns: even the best-performing tickers here saw the strategy
+lose roughly 28–34% of its value at some point before recovering.
 
 ## Assumptions and limitations
 
